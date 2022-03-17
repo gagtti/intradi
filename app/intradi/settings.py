@@ -29,13 +29,6 @@ DEBUG = int(os.environ.get("DEBUG", default=0))
 # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
 ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
 
-""" SECRET_KEY = 'django-insecure-l$(h)*v+%8%6r3*+=mw_*x7jf7b62h4bq6%-q&ev)orsj*(+pl'
-
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-ALLOWED_HOSTS = [] """
-
 
 # Application definition
 
